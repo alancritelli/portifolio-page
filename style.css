@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #837e9f;
+  --bg-color: #302f3d;
+
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+
+  background: #22212c;
+  color: var(--primary-color);
+
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+i {
+  margin-right: 2.3rem;
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*====================GLOBAL====================*/
+#profile,
+#infos,
+#techs,
+#expertise,
+#education {
+  background: var(--bg-color);
+
+  border-radius: 2rem;
+  width: 34.8rem;
+
+  margin: 4rem;
+  padding: 4rem;
+}
+
+#expertise,
+#education {
+  width: 27rem;
+}
+
+#expertise h2,
+#education h2 {
+  margin-bottom: 2rem;
+}
+
+#expertise li,
+#education li {
+  margin-left: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 2rem;
+}
+
+/*====================PROFILE====================*/
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  border-radius: 50%;
+  border: 3px solid #0f0;
+  width: 45%;
+}
+
+#profile h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+/*====================INFOS====================*/
+.info {
+  font-size: 1.3rem;
+  margin-bottom: 2.1rem;
+}
+
+/*====================TECHS====================*/
+.front {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.front i {
+  font-size: 4rem;
+}
+
+/*====================PROJECTS====================*/
+#projects {
+  background: var(--bg-color);
+
+  border-radius: 2rem;
+
+  margin-top: 4rem;
+  padding: 4rem;
+
+
+}
+
+.project {
+  border-radius: 2rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.project p {
+  margin-top: 1rem;
+}
